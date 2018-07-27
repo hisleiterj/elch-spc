@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Elchwinkel.Spc</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+    <Authors>Jannek Hisleiter</Authors>
+    <Company>Elchwinkel</Company>
+    <PackageTags>spc, spectrum, spectroscopic, galactic industries, thermo fisher, spectroscopy</PackageTags>
+    <PackageReleaseNotes>fix dependencies</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/hisleiterj/elch-spc</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/hisleiterj/elch-spc</PackageProjectUrl>
+    <Copyright>Copyright © 2018</Copyright>
+    <PackageIconUrl>https://www.gravatar.com/avatar/128454afabd40d3f6da6a7c83b1fd6a9?s=64</PackageIconUrl>
+    <Description>Library to read and write spc spectroscopy files.</Description>
+    <PackageLicenseUrl>https://github.com/hisleiterj/elch-spc/blob/master/LICENSE</PackageLicenseUrl>
+  </PropertyGroup>
+
+</Project>
