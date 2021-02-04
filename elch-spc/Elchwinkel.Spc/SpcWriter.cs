@@ -12,6 +12,11 @@ namespace Elchwinkel.Spc
             var bytes = Encode(collection);
             File.WriteAllBytes(file, bytes);
         }
+        public static void ToStream(SpectrumCollection collection, Stream stream)
+        {
+            var bytes = Encode(collection);
+            stream.Write(bytes,0,bytes.Length);
+        }
         private static bool _HaveSameXAxes(Spectrum[] spectra)
         {
             var first = spectra[0].X;
